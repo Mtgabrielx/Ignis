@@ -24,14 +24,14 @@ float ratio = 0.0f;
 /* =====================================================
    Wi-Fi / MQTT
    ===================================================== */
-const char* ssid     = "Reis";
-const char* password = "aluno123";
+const char* ssid     = "";
+const char* password = "";
 
-const char* mqtt_server = "82.25.77.19";
+const char* mqtt_server = "";
 const int   mqtt_port   = 1883;
 
-const char* mqtt_user   = "admin";
-const char* mqtt_pass   = "647431b5ca55b04fdf3c2fce31ef1915";
+const char* mqtt_user   = "";
+const char* mqtt_pass   = "";
 
 // ClientID FIXO (não muda)
 static const char* MQTT_CLIENT_ID = "esp32-dc01";
